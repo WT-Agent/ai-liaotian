@@ -3,7 +3,7 @@
     <div class="ticker-wrapper">
       <div v-for="(item, index) in tickerItems" :key="index" class="ticker-item">
         <span>{{ item.text }}</span>
-        <span style="color: var(--success-color); font-weight: bold;">[生成完成]</span>
+        <span style="color: var(--success-color); font-weight: bold;">[生成成功]</span>
       </div>
     </div>
   </div>
@@ -13,20 +13,10 @@
 import { ref } from 'vue';
 
 const tickerItems = ref([
-  {
-    "text": "用户 136****5501 成功破解了领导微信发“在吗”的高情商回复"
-  },
-  {
-    "text": "用户 188****2210 生成了破解女生发“随便”的晚餐推荐话术"
-  },
-  {
-    "text": "用户 132****7790 完成了 500 人工作群冷场后的幽默接话救场"
-  },
-  {
-    "text": "用户 151****3388 生成了面对亲戚催婚时的机智幽默反击回复"
-  },
-  {
-    "text": "用户 176****9910 获得了刚认识的朋友发单字“嗯”的接话技巧"
-  }
+  { text: '用户 135****4829 成功生成了文案' },
+  { text: '用户 173****9238 成功合成了图像' },
+  { text: '用户 189****1102 成功解析了数据' },
+  { text: '用户 130****8739 成功翻译了内容' },
+  { text: '用户 152****2394 成功生成了朋友圈文案' },
 ]);
 </script>
